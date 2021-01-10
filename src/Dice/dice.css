@@ -1,0 +1,28 @@
+.dice-container {
+    display: inline-flex;
+    gap: 60px;
+    justify-items: center;
+    
+}
+
+.fas {
+    font-size: 260px;
+    color: rgb(93, 25, 93);
+    
+}
+
+
+.shake{
+    animation-name: wobble;
+    animation-duration: 1s;
+}
+
+ @keyframes wobble {
+    0% { transform: translateX(0%); } 
+    15% { transform: translateX(-25%) rotate(-5deg); } 
+    30% { transform: translateX(20%) rotate(3deg); } 
+    45% { transform: translateX(-15%) rotate(-3deg); } 
+    60% { transform: translateX(10%) rotate(2deg); }
+    75% { transform: translateX(-5%) rotate(-1deg); }
+    100% { transform: translateX(0%); } 
+ } 
