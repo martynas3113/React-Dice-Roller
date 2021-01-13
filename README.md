@@ -8,6 +8,6 @@ Mini React project made with intension to practine to use State and Props and ho
 - Rolling animation
 - Button changes text while rolling
 
-Site published at: https://dice-roller55.netlify.app/
+Site published at: [React-Dice-Roller](https://dice-roller55.netlify.app/)
 
 
